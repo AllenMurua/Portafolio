@@ -1,0 +1,45 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    flex: 1 0 100%;
+    margin: 10px;
+}
+
+.gallery-item img {
+    width: 200px;
+    display: block;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .gallery-item {
+        flex-basis: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .gallery-item {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .gallery-item {
+        flex-basis: calc(33.33% - 20px);
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .gallery-item {
+        flex-basis: calc(25% - 20px);
+    }
+}

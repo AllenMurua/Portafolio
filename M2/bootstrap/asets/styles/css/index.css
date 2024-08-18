@@ -1,0 +1,19 @@
+.navbar{
+    background-color: blueviolet;
+}
+.navbar-brand, .nav-link{
+    color: white !important;
+
+}
+.table{
+    margin: auto;
+    margin-top: 6%;
+    width: 80%;
+}
+.img-fluid{
+    width: 40%;
+    margin-top: 6%;
+}
+.contenedor-imagen{
+    text-align: center;
+}
